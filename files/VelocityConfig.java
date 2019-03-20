@@ -1,7 +1,7 @@
-package com.netcorner.hotelanalysis.config;
+package com.netcorner.config;
 
-import com.netcorner.hotelanalysis.utils.velocity.VelocityConfigurer;
-import com.netcorner.hotelanalysis.utils.velocity.VelocityViewResolver;
+import com.netcorner.velocity.VelocityConfigurer;
+import com.netcorner.velocity.VelocityViewResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import java.util.Properties;

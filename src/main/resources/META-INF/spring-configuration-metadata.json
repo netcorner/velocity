@@ -1,0 +1,42 @@
+{
+  "hints": [
+    {
+      "name": "spring.velocity.prefix",
+      "values": [
+        {
+          "value": "/template/"
+        }
+      ]
+    },
+    {
+      "name": "spring.velocity.suffix",
+      "values": [
+        {
+          "value": ".vm"
+        },
+        {
+          "value": ".html"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.netcorner.velocity.VelocityProperties",
+      "name": "...",
+      "type": "com.netcorner.velocity.VelocityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.netcorner.velocity.VelocityProperties",
+      "name": "spring.velocity.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.netcorner.velocity.VelocityProperties",
+      "name": "spring.velocity.suffix",
+      "type": "java.lang.String"
+    }
+  ]
+}
